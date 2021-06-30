@@ -1,0 +1,41 @@
+
+.recipes{
+    position: relative;
+    width:60%;
+    left:50%;
+    transform: translateX(-50%);  
+    margin-top: 10px;
+    border-radius: 20px 20px 0 0 ;
+    box-shadow: 3px 3px 5px 5px rgb(161, 160, 160);
+    background-color: rgb(163, 184, 134);
+
+    form{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .recipes-list{
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: rgb(163, 184, 134);
+        box-shadow: 3px 3px 5px 5px rgb(161, 160, 160);
+
+        
+   
+    }
+    
+    .input-list{
+        display:flex;
+        flex-wrap: wrap;
+       
+    }
+    li{
+        list-style: none;
+        margin-right: 55px;
+        margin-left: 55px;
+    }
+  
+ 
+}

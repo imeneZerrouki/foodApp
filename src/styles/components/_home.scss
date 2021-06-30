@@ -1,0 +1,15 @@
+.home{
+    position: relative;
+    h2{
+        text-align: center;
+    }
+    img{
+        position: absolute;
+        object-fit: cover;
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%); 
+        border-radius: 20px ;  
+        box-shadow: 5px 5px 5px 5px gray;  
+    }
+}

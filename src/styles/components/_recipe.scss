@@ -1,0 +1,46 @@
+.recipe{
+    height: 250px;
+    width: 200px;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    box-shadow: 0px 5px 5px 0px gray;
+    transform: 0.3s;
+    overflow: hidden;
+    border-radius: 4px;
+    background-color: rgb(111, 134, 78);
+    &:hover{
+        transform: scale(1.15); 
+        z-index: 2;
+        img{
+            opacity: 0.6;
+        }
+        .affich{
+            opacity: 1;
+        }
+    }
+    img{
+        object-fit: cover;
+        height: 200px;
+        width: 200px;
+    }
+    p{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+        text-align: center;
+    }
+    .affich{
+        position: absolute;
+        top: 50%;
+        font-size: 15px;
+        text-align: center;
+        transform: translateY(-50%);
+        opacity:0;
+        font-weight: bold;
+
+        
+    }
+    
+    
+}
